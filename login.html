@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>Login</title>
+<link rel="stylesheet" href="login.css">
+<script type="text/javascript" >
+    function show() {
+  var x = document.getElementById("password");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+         }
+  }
+
+  function login() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+    
+    if (username === "clarence" && password === "garcia") {
+        alert("Login successfully!");
+        window.location.href = "main.html"; 
+    } else {
+        alert("Invalid username or password!");
+    }
+}
+ </script>
+</head>
+<body>
+  
+
+<header>
+
+<h2 class="header">Station Login</h2>
+
+<nav class="header1">
+<a href="home.html">Home</a>
+<a href="contact.html" >Contact us</a>
+<input type=button onClick="parent.location='signup.html'"
+ value='Sign up' class="login">
+</nav>
+
+</header>
+<main class="main">
+
+<div class="div1">
+<form class="form1"  id="loginForm">
+
+<div><h2>Log in</h2></div>
+
+<div class="inputbox">
+<img src="email.png"><input type="text" name="username" class="input" id="username"  required><label>Username:</label> 
+<span id="bemail" style="color:red"></span>
+</div>
+<br>
+
+
+
+<div class="inputbox">
+<img src="lock.png"><input type="password" name="password" class="input" id="password" required><label>Password:</label> 
+<span id="bpass" style="color:red"></span>
+</div>
+<br>
+
+<div class="remgot">
+<label> <input type="checkbox" onclick="show()" required>
+Show Password</label>
+
+<a href="forgot.html">Forgot password?</a>
+</div>
+
+
+<br>
+<div >
+<button type="button"  class="login1" value="Log in" onclick="login()">Login</button>
+</div>
+
+
+<div class="signup">
+<p>Don't have an account? <a href="signup.html" >Sign up</a></p>
+</div>
+
+</form>
+</div>
+
+
+
+</main>
+
+
+<footer>
+<div class="foot">
+
+<p>Copyright ®2024, IPT FINALGARCIA . All rights reserved. </p>
+
+</div>
+
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,123 @@
+*
+{
+font-family:monospace;
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body
+{
+
+  Background-image:url("2nd.jpg");
+  justify-content:center;
+  align-items:center;
+  display:flex ;
+  background-size:cover;
+  background-position:center;
+} 
+
+.form
+{
+height:430px;
+width:370px;
+border:2px solid rgba(255,255,255,0.5);
+border-radius:20px;
+background:transparent;
+backdrop-filter:blur(10px);
+padding:20px;
+box-shadow: 5px 5px 10px white;
+
+}
+
+.form h2
+{
+color:white;
+justify-content:center ;
+display:flex;
+margin-bottom:20px;
+}
+
+.form .regis
+{
+color:white;
+justify-content:center ;
+margin-top: 30px;
+
+
+}
+
+.text
+{
+margin-bottom:10px;
+background:transparent;
+border:none;
+outline:none;
+color:white;
+}
+
+.inputbox
+{
+border-bottom:2px solid white ;
+margin-bottom:20px ;
+border-radius:20px;
+}
+.box .box1
+{
+margin-bottom:20px;
+}
+.box a
+{
+color:black;
+text-decoration:none;
+transition:.4s;
+}
+.box a:hover
+{
+text-decoration:underline;
+
+}
+
+.box1 input
+{
+justify-content:center ;
+outline:none ;
+background:transparent ;
+color:white;
+padding:10px 90px 10px 90px;
+border-radius:20px;
+margin:10px 20px 0px 10px;
+transition:0.4s;
+border-color: white;
+}
+
+.box1 input:hover
+{
+background:white;
+color:black;
+}
+
+.othersign button
+{
+
+
+background:transparent;
+outline:none;
+border-radius:20px;
+color:white;
+}
+.othersign button:hover
+{
+background:white;
+color:black;
+}
+
+.othersign
+{
+margin-left:10px;
+margin-top:20px;
+}
+.othersign .button1
+{
+padding:5px 80px 5px 80px;
+}
+

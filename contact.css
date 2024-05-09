@@ -1,0 +1,151 @@
+  *
+{
+font-family:monospace;
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body
+{
+
+  Background-image:url("2nd.jpg");
+  justify-content:center;
+  align-items:center;
+  display:flex ;
+  flex-direction:column;
+  background-size:cover;
+  background-position:center;
+} 
+
+.contact 
+{
+
+color:white ;
+height:500px;
+width:600px;
+justify-content:center ;
+border:2px solid rgba(255,255,255,.5) ;
+border-radius:20px;
+backdrop-filter:blur(10px);
+background:transparent;
+margin-top:20px ;
+box-shadow: 5px 5px 10px white;
+}
+
+
+.contact input
+{
+margin-top:10px;
+
+}
+
+.contact .message
+{
+margin-top:10px ;
+
+}
+
+h2
+{
+
+justify-content:center ;
+display:flex ;
+color:white;
+font-size:3em;
+border-bottom:2px solid white;
+
+}
+
+.form2 .inputbox
+{
+
+font-size:15px;
+margin:10px 30px 30px 30px;
+border-bottom:2px solid white ;
+
+
+}
+
+.form2 .input
+{
+background:transparent;
+outline:none;
+border:none;
+margin-bottom:5px ;
+color: white;
+font-weight: bold;
+}
+
+.form2
+{
+margin-top:30px;
+}
+
+
+.message
+{
+font-size:15px;
+margin:50px 30px 0px 30px;
+
+}
+
+.message textarea
+{
+padding-right:20px;
+padding-bottom:20px;
+
+}
+
+.policy
+{
+align-items:center ;
+margin:0px 30px 0px 30px ;
+
+}
+.policy a
+{
+color:black;
+text-decoration:none;
+}
+.policy a:hover
+{
+text-decoration:underline;
+}
+
+.submit
+{
+margin-left:30px;
+}
+
+.submit input
+{
+border-radius:20px ;
+height:30px;
+cursor:pointer;
+background:transparent;
+color:white;
+outline:none ;
+border-color: white;
+transition:.4s;
+width: 150px;
+}
+
+.submit input:hover
+{
+background:white;
+color:black;
+}
+
+.footer p
+{
+margin-top: 10px;
+color:white;
+font-weight:bold;
+}
+
+textarea
+{
+  border-radius: 10px;
+  padding: 5px;
+}
+
